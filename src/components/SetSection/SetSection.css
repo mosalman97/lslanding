@@ -1,0 +1,52 @@
+/* SetsSection.css */
+.sets-section {
+  padding: 80px 50px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+.sets-section h2 {
+  font-size: 40px;
+  margin-bottom: 5px;
+  color: #fff;
+  font-family: Manrope-Bold;
+}
+
+.sets-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.set-card {
+  border-radius: 10px;
+  padding: 20px;
+  transition: transform 0.3s;
+}
+
+.set-card img {
+  width: 250px;
+  height: 140px;
+  border-radius: 18px;
+  margin-bottom: 14px;
+}
+
+.set-card h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-family: Manrope-Regular;
+  color: #f3f4f6ff;
+}
+
+.set-card p {
+  font-size: 16px;
+  font-family: Manrope-Regular;
+  color: #f3f4f6ff;
+}
+
+.set-card:hover {
+  transform: translateY(-10px);
+}

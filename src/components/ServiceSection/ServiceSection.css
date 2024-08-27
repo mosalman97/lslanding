@@ -1,0 +1,76 @@
+/* ServicesSection.css */
+.services-section {
+  padding: 80px 50px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+.services-section h2 {
+  font-size: 40px;
+  margin-bottom: 5px;
+  color: #fff;
+  font-family: Manrope-Bold;
+}
+
+.services-grid {
+  /* display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 40px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.service-card {
+  background-color: #1c1c1c;
+  border-radius: 10px;
+  padding: 20px;
+  transition: transform 0.3s;
+  display: flex;
+  flex-direction: row;
+  width: 580px;
+  height: auto;
+  margin: 12px;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+}
+
+.service-card-right {
+  text-align: left;
+}
+.service-card-right h3 {
+  font-size: 20px;
+  color: #fff;
+  font-family: Manrope-Bold;
+}
+.service-card-right p {
+  font-size: 14px;
+  line-height: 22px;
+  color: #9095a1ff;
+  font-family: Manrope-regular;
+}
+
+.view-more-button {
+  border: 1px solid #5b27e9ff;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 80px;
+  padding: 0 12px;
+  height: 36px;
+  border-radius: 12px;
+}
+.view-more-button p {
+  font-size: 14px;
+  color: #5b27e9ff;
+}
+.service-card-left {
+}
+.service-card-left img {
+  width: 160px;
+  height: 126px;
+  border-radius: 9px;
+}

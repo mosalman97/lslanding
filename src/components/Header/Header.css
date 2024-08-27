@@ -1,0 +1,65 @@
+/* Header.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px 5px 20px;
+  background-color: #111;
+  border-bottom: 2px solid #2b2b2b;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  font-size: 14px;
+  transition: color 0.3s;
+  font-family: Manrope-Regular;
+  color: #a8adb7ff;
+}
+
+nav ul li a:hover {
+  color: #5b27e9ff;
+}
+
+.contact-button {
+  background-color: #5b27e9ff;
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 18px;
+  transition: background-color 0.3s;
+  width: 160px;
+  height: 36px;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: manrope-regular;
+}
+
+.contact-button:hover {
+  color: #ffffffff;
+  background: #4414caff;
+}
+.contact-button:hover:active {
+  color: #ffffffff;
+  background: #35109eff;
+}
+.contact-button:disabled {
+  opacity: 0.4;
+}
